@@ -25,7 +25,7 @@ const Chatbot = () => {
     setLoading(true); // Start loading state
 
     try {
-      const response = await axios.post('http://localhost:4001/api/question', { message: userMessage });
+      const response = await axios.post('https://mindful-backend-lixt.onrender.com', { message: userMessage });
       setMessages((prevMessages) => [
         ...prevMessages,
         { sender: 'bot', content: response.data.reply },
