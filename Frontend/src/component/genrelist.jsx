@@ -8,7 +8,7 @@ const GenreList = () => {
     useEffect(() => {
         const fetchGenres = async () => {
             try {
-                const response = await fetch('http://localhost:4001/api/genre');
+                const response = await fetch('https://mindful-backend-lixt.onrender.com');
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
                 }
