@@ -13,7 +13,7 @@ const GenreCommunity = () => {
     useEffect(() => {
         const fetchPosts = async () => {
             try {
-                const response = await fetch(`http://localhost:4001/api/community`); // Use genreId in the URL
+                const response = await fetch(`https://mindful-backend-lixt.onrender.com`); // Use genreId in the URL
                 if (!response.ok) {
                     throw new Error('Failed to fetch posts');
                 }
