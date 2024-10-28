@@ -19,7 +19,7 @@ const Contact = () => {
     console.log('Form Data:', formData); // Log form data
 
     try {
-      const response = await fetch('http://localhost:4001/contact/submit', {
+      const response = await fetch('https://mindful-backend-lixt.onrender.com', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
