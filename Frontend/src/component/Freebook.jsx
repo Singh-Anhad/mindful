@@ -12,7 +12,7 @@ function Freebook() {
   useEffect(() => {
     const getBook = async () => {
       try {
-        const res = await axios.get('http://localhost:4001/book');
+        const res = await axios.get('https://mindful-backend-lixt.onrender.com');
         // Filter the data based on category
         const filteredData = res.data.filter((item) => item.category === "Free");
         setBook(filteredData); // Store filtered data
