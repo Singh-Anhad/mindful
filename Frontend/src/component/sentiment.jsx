@@ -14,7 +14,7 @@ const SentimentAnalysis = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:4001/api/sentiment/analyze', { text });
+      const response = await axios.post('https://mindful-backend-lixt.onrender.com', { text });
       setSentimentResult(response.data);
     } catch (error) {
       console.error('Error analyzing sentiment:', error);
