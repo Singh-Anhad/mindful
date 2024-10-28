@@ -18,7 +18,7 @@ function Login() {
       password: data.password,
     };
     await axios
-      .posthttps://mindful-backend-lixt.onrender.com", userInfo)
+      .post(https://mindful-backend-lixt.onrender.com", userInfo)
       .then((res) => {
         console.log(res.data);
         if (res.data) {
