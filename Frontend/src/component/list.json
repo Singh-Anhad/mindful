@@ -1,83 +1,92 @@
 [
     {
-        "id":"1",
-        "name":"A",
-        "title":"First",
-        "price":"0",
-        "category":"Free",
-        "image":"https://media.istockphoto.com/id/1138180728/vector/vector-of-a-smart-phone-and-headphones.jpg?s=612x612&w=0&k=20&c=XKUfukfHOaBOBIcvwBCOsJ9wPJYtgCcAaCRzDFt7kks="
+        "id": "1",
+        "name": "Music Theory",
+        "title": "Beginner",
+        "price": "₹3,500",
+        "category": "Free",
+        "image": "https://lirp.cdn-website.com/e00ccc9d/dms3rep/multi/opt/Laptop-and-Sheet-Music-f9a77e34-1920w.jpg",
+        "description": "An introductory course covering the fundamental concepts of music theory, including scales, chords, and notation."
     },
     {
-        "id":"2",
-        "name":"A",
-        "title":"First",
-        "price":"0",
-        "category":"Free",
-        "image":"https://media.istockphoto.com/id/1138180728/vector/vector-of-a-smart-phone-and-headphones.jpg?s=612x612&w=0&k=20&c=XKUfukfHOaBOBIcvwBCOsJ9wPJYtgCcAaCRzDFt7kks="
+        "id": "2",
+        "name": "Instrumental Basics",
+        "title": "Beginner",
+        "price": "₹800",
+        "category": "Free",
+        "image": "https://cdn.prod.website-files.com/65a997ed5f68daf1805ed393/65d4e71d179580f344f3b94e_EYHFXUxJ0a6vIxbuMOdfjdFqvIf6H7TBP0fh2j6WlSyqITxkA-out-0.png",
+        "description": "Learn the basic techniques and skills necessary to play various instruments, perfect for beginners."
     },
     {
-        "id":"3",
-        "name":"A",
-        "title":"First",
-        "price":"10",
-        "category":"Free",
-        "image":"https://media.istockphoto.com/id/1138180728/vector/vector-of-a-smart-phone-and-headphones.jpg?s=612x612&w=0&k=20&c=XKUfukfHOaBOBIcvwBCOsJ9wPJYtgCcAaCRzDFt7kks="
+        "id": "3",
+        "name": "Music Production",
+        "title": "Intermediate",
+        "price": "₹1,500",
+        "category": "Free",
+        "image": "https://aimm.edu/hubfs/Blog%20Images/How%20Can%20I%20Start%20A%20Music%20Production%20Company%20At%20Home/how-to-start-a-music-production-company.jpg",
+        "description": "An intermediate course focused on the essential techniques and tools used in music production, including software and recording methods."
     },
     {
-        "id":"4",
-        "name":"A",
-        "title":"First",
-        "price":"20",
-        "category":"Free",
-        "image":"https://media.istockphoto.com/id/1138180728/vector/vector-of-a-smart-phone-and-headphones.jpg?s=612x612&w=0&k=20&c=XKUfukfHOaBOBIcvwBCOsJ9wPJYtgCcAaCRzDFt7kks="
+        "id": "4",
+        "name": "Advanced Music Theory",
+        "title": "Advanced",
+        "price": "₹2,000",
+        "category": "Free",
+        "image": "https://static.wixstatic.com/media/4417b7_2b199154a7ff4842bfa3ad1173ef7374~mv2.jpg/v1/fill/w_640,h_400,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/4417b7_2b199154a7ff4842bfa3ad1173ef7374~mv2.jpg",
+        "description": "Dive deep into advanced music theory concepts, exploring complex harmonic structures and compositional techniques."
     },
     {
-        "id":"5",
-        "name":"A",
-        "title":"First",
-        "price":"30",
-        "category":"Free",
-        "image":"https://media.istockphoto.com/id/1138180728/vector/vector-of-a-smart-phone-and-headphones.jpg?s=612x612&w=0&k=20&c=XKUfukfHOaBOBIcvwBCOsJ9wPJYtgCcAaCRzDFt7kks="
+        "id": "5",
+        "name": "Sound Engineering",
+        "title": "Intermediate",
+        "price": "₹2,500",
+        "category": "Free",
+        "image": "https://www.londonamp.com/clickandbuilds/test/files/wp-content/uploads/Mixing-console-.jpg",
+        "description": "This course covers the fundamentals of sound engineering, including mixing, mastering, and audio processing techniques."
     },
     {
-        "id":"6",
-        "name":"A",
-        "title":"First",
-        "price":"40",
-        "category":"Free",
-        "image":"https://media.istockphoto.com/id/1138180728/vector/vector-of-a-smart-phone-and-headphones.jpg?s=612x612&w=0&k=20&c=XKUfukfHOaBOBIcvwBCOsJ9wPJYtgCcAaCRzDFt7kks="
-    },
-
-    {
-        "id":"7",
-        "name":"A",
-        "title":"First",
-        "price":"05",
-        "category":"Free",
-        "image":"https://media.istockphoto.com/id/1138180728/vector/vector-of-a-smart-phone-and-headphones.jpg?s=612x612&w=0&k=20&c=XKUfukfHOaBOBIcvwBCOsJ9wPJYtgCcAaCRzDFt7kks="
+        "id": "6",
+        "name": "Music Composition",
+        "title": "Advanced",
+        "price": "₹3,000",
+        "category": "Free",
+        "image": "https://www.artistmusic.org/uploads/4/6/7/0/4670061/song-writing-image_2.jpg",
+        "description": "An advanced course on music composition that teaches you how to create original works, focusing on style and form."
     },
     {
-        "id":"8",
-        "name":"A",
-        "title":"First",
-        "price":"0",
-        "category":"Free",
-        "image":"https://media.istockphoto.com/id/1138180728/vector/vector-of-a-smart-phone-and-headphones.jpg?s=612x612&w=0&k=20&c=XKUfukfHOaBOBIcvwBCOsJ9wPJYtgCcAaCRzDFt7kks="
+        "id": "7",
+        "name": "Vocal Training",
+        "title": "Beginner",
+        "price": "₹700",
+        "category": "Free",
+        "image": "https://www.voicelessons.com/blog/wp-content/uploads/2017/10/tips-to-improve-your-singing-voice-1.png",
+        "description": "A beginner-friendly vocal training course aimed at improving vocal techniques and performance skills."
     },
     {
-        "id":"9",
-        "name":"A",
-        "title":"First",
-        "price":"0",
-        "category":"Free",
-        "image":"https://media.istockphoto.com/id/1138180728/vector/vector-of-a-smart-phone-and-headphones.jpg?s=612x612&w=0&k=20&c=XKUfukfHOaBOBIcvwBCOsJ9wPJYtgCcAaCRzDFt7kks="
+        "id": "8",
+        "name": "Digital Audio Mastering",
+        "title": "Advanced",
+        "price": "₹4,000",
+        "category": "Free",
+        "image": "https://cdn.shopify.com/s/files/1/0970/0050/files/DALL_E_2023-11-28_13.08.45_-_An_image_depicting_the_evolution_of_audio_mastering_technology_with_a_wide_aspect_ratio._Starting_from_vintage_reel-to-reel_tape_machines_and_analog.jpg?v=1701177130",
+        "description": "Master the art of audio mastering with this advanced course, focusing on the technical aspects of finalizing audio for release."
     },
     {
-        "id":"10",
-        "name":"A",
-        "title":"First",
-        "price":"0",
-        "category":"Free",
-        "image":"https://media.istockphoto.com/id/1138180728/vector/vector-of-a-smart-phone-and-headphones.jpg?s=612x612&w=0&k=20&c=XKUfukfHOaBOBIcvwBCOsJ9wPJYtgCcAaCRzDFt7kks="
+        "id": "9",
+        "name": "DJ Mixing",
+        "title": "Intermediate",
+        "price": "₹1,800",
+        "category": "Free",
+        "image": "https://t4.ftcdn.net/jpg/08/20/33/23/360_F_820332376_YysFkMKmtjUIR1OTEEoM8T2SIoPSbVKn.jpg",
+        "description": "Learn the techniques of DJ mixing, including beat matching, transitions, and live performance strategies in this intermediate course."
+    },
+    {
+        "id": "10",
+        "name": "Audio Production",
+        "title": "Advanced",
+        "price": "₹3,500",
+        "category": "Free",
+        "image": "https://www.masters.edu/wp-content/uploads/2023/06/Muscitech-0056-scaled-e1687825899173.jpg",
+        "description": "An advanced audio production course that covers comprehensive production techniques from recording to mixing and editing."
     }
 ]

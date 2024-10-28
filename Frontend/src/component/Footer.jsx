@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 function Footer() {
   return (
     <div><footer className="footer bg-neutral text-neutral-content grid-rows-2 p-10">

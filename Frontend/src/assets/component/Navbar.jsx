@@ -27,11 +27,11 @@ function Navbar() {
             <li><a href="/">Rock</a></li>
             <li><a href="/">Hip-Hop</a></li>
             <li><a href="/">Pop</a></li>
-            <li><a href="/">Jazz</a></li>
+            <li><a href="/">Ja</a></li>
           </ul>
         </details>
       </li>
-      <li><a href="/">Radio</a></li>
+      <li><a href="/RadioPlaryer">Radiggggggggggggggggggggggggggggggggo</a></li>
       <li><a href="/">About Us</a></li>
     </>
   );

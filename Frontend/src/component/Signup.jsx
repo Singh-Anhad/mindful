@@ -1,8 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import Login from './Login';
+import axios from "axios";
 import { useForm } from "react-hook-form";
-
+import toast, { Toaster } from 'react-hot-toast';
 function Signup() {
   const {
     register,
@@ -10,11 +11,29 @@ function Signup() {
     formState: { errors },
   } = useForm(); // Remove the generic type
 
-  const onSubmit = (data) => {
-    console.log(data);
-    // You can add your signup logic here
+  const onSubmit = async (data) => {
+    const userInfo = {
+      fullname: data.fullname,
+      email: data.email,
+      password: data.password,
+    };
+    await axios
+      .post("http://localhost:4001/user/signup", userInfo)
+      .then((res) => { //promise
+        console.log(res.data);
+        if (res.data) {
+          toast.success("Signup Successfully");
+          navigate(from, { replace: true });
+        }
+        localStorage.setItem("Users", JSON.stringify(res.data.user)); //browserlocastorage
+      })
+      .catch((err) => {
+        if (err.response) {
+          console.log(err);
+          toast.error("Error: " + err.response.data.message);
+        }
+      });
   };
-
   return (
     <div className="flex h-screen items-center justify-center">
       <div id="my_modal_3" className="w-[600px]">
@@ -35,7 +54,7 @@ function Signup() {
                 type="text"
                 placeholder="Enter your Full Name"
                 className="w-80 px-3 py-1 border rounded-md outline-none"
-                {...register("name", { required: "Name is required" })}
+                {...register("fullname", { required: "Name is required" })}
               />
               {errors.name && <span className="text-red-500">{errors.name.message}</span>}
             </div>

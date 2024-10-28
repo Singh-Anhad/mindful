@@ -1,0 +1,31 @@
+[
+    {
+        "id": "60f6c2a3c6a4f5f1e0a4a321",
+        "name": "Classical", 
+        "description": "Classical music is a broad term that typically refers to music produced in the traditions of Western culture."
+    },
+    {
+        "id": "60f6c2a3c6a4f5f1e0a4a322",
+        "name": "Rock",
+        "description": "Rock music is a genre of popular music that originated as rock and roll in the United States in the late 1940s. It is characterized by a strong beat and often revolves around the electric guitar.",
+        "createdAt": "2023-07-24T12:34:56.789Z"
+    },
+    {
+        "id": "60f6c2a3c6a4f5f1e0a4a323",
+        "name": "Hip-Hop",
+        "description": "Hip-Hop is a cultural movement that began in the Bronx, New York City, in the 1970s. It encompasses a range of artistic forms including rap music, DJing, breakdancing, and graffiti art.",
+        "createdAt": "2023-07-24T12:34:56.789Z"
+    },
+    {
+        "id": "60f6c2a3c6a4f5f1e0a4a324",
+        "name": "Pop",
+        "description": "Pop music is a genre of popular music that originated in its modern form in the United States and the United Kingdom during the late 1950s. It is characterized by its catchy melodies and simple lyrics.",
+        "createdAt": "2023-07-24T12:34:56.789Z"
+    },
+    {
+        "id": "60f6c2a3c6a4f5f1e0a4a325",
+        "name": "Jazz",
+        "description": "Jazz is a music genre that originated in the African-American communities of New Orleans, United States, in the late 19th and early 20th centuries. It is characterized by swing and blue notes, call and response vocals, polyrhythms, and improvisation.",
+        "createdAt": "2023-07-24T12:34:56.789Z"
+    }
+]

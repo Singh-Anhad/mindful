@@ -1,0 +1,82 @@
+[
+    {
+        "id": "1",
+        "name": "Music Theory",
+        "title": "Beginner",
+        "price": "₹3,500",
+        "category": "Free",
+        "image": "https://lirp.cdn-website.com/e00ccc9d/dms3rep/multi/opt/Laptop-and-Sheet-Music-f9a77e34-1920w.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Instrumental Basics",
+        "title": "Beginner",
+        "price": "₹800",
+        "category": "Free",
+        "image": "https://cdn.prod.website-files.com/65a997ed5f68daf1805ed393/65d4e71d179580f344f3b94e_EYHFXUxJ0a6vIxbuMOdfjdFqvIf6H7TBP0fh2j6WlSyqITxkA-out-0.png"
+    },
+    {
+        "id": "3",
+        "name": "Music Production",
+        "title": "Intermediate",
+        "price": "₹1,500",
+        "category": "Free",
+        "image": "https://aimm.edu/hubfs/Blog%20Images/How%20Can%20I%20Start%20A%20Music%20Production%20Company%20At%20Home/how-to-start-a-music-production-company.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Advanced Music Theory",
+        "title": "Advanced",
+        "price": "₹2,000",
+        "category": "Free",
+        "image": "https://static.wixstatic.com/media/4417b7_2b199154a7ff4842bfa3ad1173ef7374~mv2.jpg/v1/fill/w_640,h_400,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/4417b7_2b199154a7ff4842bfa3ad1173ef7374~mv2.jpg"
+    },
+    {
+        "id": "5",
+        "name": "Sound Engineering",
+        "title": "Intermediate",
+        "price": "₹2,500",
+        "category": "Free",
+        "image": "https://www.londonamp.com/clickandbuilds/test/files/wp-content/uploads/Mixing-console-.jpg"
+    },
+    {
+        "id": "6",
+        "name": "Music Composition",
+        "title": "Advanced",
+        "price": "₹3,000",
+        "category": "Free",
+        "image": "https://www.artistmusic.org/uploads/4/6/7/0/4670061/song-writing-image_2.jpg"
+    },
+    {
+        "id": "7",
+        "name": "Vocal Training",
+        "title": "Beginner",
+        "price": "₹700",
+        "category": "Free",
+        "image": "https://www.voicelessons.com/blog/wp-content/uploads/2017/10/tips-to-improve-your-singing-voice-1.png"
+    },
+    {
+        "id": "8",
+        "name": "Digital Audio Mastering",
+        "title": "Advanced",
+        "price": "₹4,000",
+        "category": "Free",
+        "image": "https://cdn.shopify.com/s/files/1/0970/0050/files/DALL_E_2023-11-28_13.08.45_-_An_image_depicting_the_evolution_of_audio_mastering_technology_with_a_wide_aspect_ratio._Starting_from_vintage_reel-to-reel_tape_machines_and_analog.jpg?v=1701177130"
+    },
+    {
+        "id": "9",
+        "name": "DJ Mixing",
+        "title": "Intermediate",
+        "price": "₹1,800",
+        "category": "Free",
+        "image": "https://t4.ftcdn.net/jpg/08/20/33/23/360_F_820332376_YysFkMKmtjUIR1OTEEoM8T2SIoPSbVKn.jpg"
+    },
+    {
+        "id": "10",
+        "name": "Audio Production",
+        "title": "Advanced",
+        "price": "₹3,500",
+        "category": "Free",
+        "image": "https://www.masters.edu/wp-content/uploads/2023/06/Muscitech-0056-scaled-e1687825899173.jpg"
+    }
+]

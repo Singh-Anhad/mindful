@@ -1,0 +1,25 @@
+{
+  "name": "musicstore",
+  "version": "1.0.0",
+  "description": "mern project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Anhad",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "fuse.js": "^7.0.0",
+    "mongoose": "^8.7.2",
+    "nodemon": "^3.1.7",
+    "sentiment": "^5.0.2"
+  }
+}

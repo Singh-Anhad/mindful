@@ -1,0 +1,42 @@
+[
+    {
+        "_id": "60f6c2a3c6a4f5f1e0a4a123",
+        "title": "The Healing Power of Classical Music",
+        "content": "Listening to classical music can significantly reduce stress and anxiety. Here are some of my favorite pieces...",
+        "genre": "60f6c2a3c6a4f5f1e0a4a321", 
+        "createdAt": "2023-07-24T12:34:56.789Z",
+        "updatedAt": "2023-07-24T12:34:56.789Z"
+    },
+    {
+        "_id": "60f6c2a3c6a4f5f1e0a4a124",
+        "title": "Rock 'n' Roll: The Soundtrack of Rebellion",
+        "content": "Rock music has always been about rebellion and freedom. Let's explore its evolution and how it continues to inspire generations.",
+        "genre": "60f6c2a3c6a4f5f1e0a4a322", 
+        "createdAt": "2023-07-25T14:20:30.123Z",
+        "updatedAt": "2023-07-25T14:20:30.123Z"
+    },
+    {
+        "_id": "60f6c2a3c6a4f5f1e0a4a125",
+        "title": "The Influence of Hip-Hop on Modern Culture",
+        "content": "Hip-Hop is not just a genre; it’s a movement that has transformed culture and society. Here are some key figures in this genre.",
+        "genre": "60f6c2a3c6a4f5f1e0a4a323", 
+        "createdAt": "2023-07-26T10:15:45.456Z",
+        "updatedAt": "2023-07-26T10:15:45.456Z"
+    },
+    {
+        "_id": "60f6c2a3c6a4f5f1e0a4a126",
+        "title": "The Catchy World of Pop Music",
+        "content": "Pop music has a unique ability to catch your ear and stay in your head. Let's discuss some of the most iconic pop songs of all time.",
+        "genre": "60f6c2a3c6a4f5f1e0a4a324", 
+        "createdAt": "2023-07-27T09:45:12.789Z",
+        "updatedAt": "2023-07-27T09:45:12.789Z"
+    },
+    {
+        "_id": "60f6c2a3c6a4f5f1e0a4a127",
+        "title": "Exploring the Depths of Jazz Music",
+        "content": "Jazz is known for its improvisation and unique rhythms. Let's dive into its rich history and some of the greatest jazz musicians.",
+        "genre": "60f6c2a3c6a4f5f1e0a4a325", 
+        "createdAt": "2023-07-28T08:30:00.123Z",
+        "updatedAt": "2023-07-28T08:30:00.123Z"
+    }
+]

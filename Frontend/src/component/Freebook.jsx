@@ -2,21 +2,26 @@ import React, { useEffect, useState } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import Cards from "./Cards"; // Adjust path if necessary
+import Cards from "./Cards"; 
+import axios from "axios";
 
 function Freebook() {
+  const [book, setBook] = useState([]);
   const [filterdata, setFilterdata] = useState([]);
 
   useEffect(() => {
-    // Fetch the JSON from the public folder
-    fetch("/list.json")
-      .then(response => response.json())
-      .then(data => {
-        const filteredData = data.filter((item) => item.category === "Free");
-        setFilterdata(filteredData);
-        console.log("Fetched Data:", filteredData); // Debugging statement
-      })
-      .catch(error => console.error("Error fetching data:", error));
+    const getBook = async () => {
+      try {
+        const res = await axios.get('http://localhost:4001/book');
+        // Filter the data based on category
+        const filteredData = res.data.filter((item) => item.category === "Free");
+        setBook(filteredData); // Store filtered data
+        setFilterdata(filteredData); // Also set filterdata if needed
+      } catch (error) {
+        console.log(error);
+      }
+    };
+    getBook();
   }, []);
 
   var settings = {
@@ -60,8 +65,8 @@ function Freebook() {
         <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold leading-tight">
           Our Offered Courses
         </h1>
-        <p className="text-sm sm:text-md md:text-lg text-gray-700 leading-relaxed">
-          Are you a music lover looking for a platform that understands your passion? Look no further! <span className="font-semibold">Mindful Melodies</span> is here to be your ultimate music companion. Whether you're a casual listener, a budding artist, or a seasoned music aficionado, we've got something special for everyone.
+        <p className="text-sm sm:text-md md:text-lg font-arial leading-tight">
+        From the foundational principles of music theory to the intricate art of production, each course invites you to express your individuality and ignite your creativity. <span className="font-semibold">Mindful Melodies</span> is here to be your ultimate music companion. Whether you're a casual listener, a budding artist, or a seasoned music aficionado, we've got something special for everyone.
         </p>
       </div>
 
